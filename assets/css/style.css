@@ -15,6 +15,17 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.exit {
+	background: url(../img/x.png) no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 3%;
+	left: 95%;
+	transform: translate(-50%, 50%);
+	border: 0;
+}
+
 .popup-bg {
 	background: url(../img/shapes2.png) no-repeat;
 	position: absolute;
@@ -73,6 +84,5 @@ p {
 	transform: translate(-50%, 50%);
 	font-family: 'Concert One', cursive;
 	color: rgb(255, 255, 255);
-	font-size: 18px;
-	
+	font-size: 18px;	
 }
