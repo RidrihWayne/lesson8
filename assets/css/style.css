@@ -1,0 +1,78 @@
+html{
+	background-image: url(./../img/bg.svg);
+}
+
+body {
+	position: absolute;
+	width: 670px;
+	height: 1003px;
+	box-shadow: 0 10px 60px rgba(219, 225, 237, 0.3);
+	border-radius: 15px;
+	background-color: #ffffff;
+	top: 50%;
+  left: 50%;
+  margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.popup-bg {
+	background: url(../img/shapes2.png) no-repeat;
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	top: 16%;
+  left: 53%;
+  margin-right: -50%;
+	transform: translate(-50%, 50%);
+	
+}
+
+.popup-face{
+	background: url(../img/face1.png) no-repeat;
+	display: block;
+	position: absolute;
+	top: 15%;
+  left: 50%;
+  margin-right: -50%;
+	padding: 120px;
+	transform: translate(-50%, 50%);
+}
+
+main {
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  margin-right: -50%;
+	transform: translate(-50%, 50%);
+}
+
+h1,
+p {
+	font-family: 'Concert One', cursive;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: rgba(151, 159, 174)
+}
+
+.button {
+	background-color: orange;
+	border-radius: 20px;
+	border: 0;
+	padding: 15px 40px;
+	position: absolute;
+  left: 50%;
+  margin-right: -50%;
+	transform: translate(-50%, 50%);
+	font-family: 'Concert One', cursive;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	
+}
